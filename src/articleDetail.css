@@ -42,6 +42,7 @@
   font-size: 1.1rem;
   line-height: 1.8;
   white-space: pre-line; /* keeps line breaks from JSON */
+  margin-bottom: 60px;
 }
 
 

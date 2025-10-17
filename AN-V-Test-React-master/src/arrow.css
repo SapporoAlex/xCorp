@@ -1,0 +1,8 @@
+.arrow {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-right: 2px solid rgb(180, 180, 180);
+    border-top: 2px solid rgb(180, 180, 180);
+    transform: rotate(45deg);
+    background-color: transparent;
+}

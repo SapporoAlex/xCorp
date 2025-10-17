@@ -1,0 +1,111 @@
+
+.gold-rect-left {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 0;
+  height: 0;
+  background-color: rgb(255, 217, 0);
+  opacity: 1;
+  animation: fillRectLeft 2s forwards; /* 2s duration */
+  transform: rotate(55deg);
+    z-index: 2;
+}
+
+@keyframes fillRectLeft {
+  0% {
+    width: 0;
+    height: 100px;
+    opacity: 1;
+  }
+  100% {
+    left: -40%;
+    width: 200vw; /* final width */
+    height: 100px; /* final height */
+    opacity: 1;
+  }
+}
+
+
+.gold-rect-right {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  width: 0;
+  height: 0;
+  background-color: gold;
+  opacity: 1;
+  animation: fillRectLeft 2s forwards; /* 2s duration */
+  transform: rotate(-55deg);
+    overflow: hidden;
+    z-index: 2;
+}
+
+@keyframes fillRectRight {
+  0% {
+    width: 0;
+    height: 100px;
+    opacity: 1;
+  }
+  100% {
+    left: -20%;
+    width: 200vw;
+    height: 100px;
+    opacity: 1;
+  }
+}
+
+.gold-rect-left-shadow {
+  position: absolute;
+  top: 0;
+  left: 55%;
+  width: 0;
+  height: 0;
+  background-color: rgb(186, 158, 0);
+  opacity: 0;
+  animation: fillRectLeftShadow 2s forwards; /* 2s duration */
+  transform: rotate(55deg);
+    z-index: 1;
+}
+
+@keyframes fillRectLeftShadow {
+  0% {
+    width: 0;
+    height: 1000px;
+    opacity: 0;
+  }
+  100% {
+    left: -52%;
+    width: 200vw; /* final width */
+    height: 50px; /* final height */
+    opacity: 0.5;
+  }
+}
+
+
+.gold-rect-right-shadow {
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 0;
+  height: 0;
+  background-color: rgb(186, 158, 0);
+  opacity: 0;
+  animation: fillRectRightShadow 2s forwards; /* 2s duration */
+  transform: rotate(-55deg);
+    z-index: 1;
+}
+
+@keyframes fillRectRightShadow {
+  0% {
+    width: 0;
+    height: 1000px;
+    opacity: 0;
+  }
+  100% {
+    left: -48%;
+    width: 200vw; /* final width */
+    height: 80px; /* final height */
+    opacity: 0.5;
+  }
+}

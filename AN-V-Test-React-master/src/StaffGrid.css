@@ -1,0 +1,120 @@
+:root {
+  --title-font: "Playfair Display", serif;
+  --body-text: "Inter", sans-serif;
+} 
+
+.staff-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+    background-color: #111;
+    color: gold;
+}
+
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center; /* centers items in columns */
+}
+
+@keyframes float-grid-a {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+@keyframes float-grid-b {
+  0% {
+    transform: translateY(100px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
+
+
+@keyframes float-grid-c {
+  0% {
+    transform: translateY(100px);
+  }
+  50% {
+    transform: translateY(150px);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
+
+.staff-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(var(--offset, 0px));
+}
+
+/* Stagger effect: slightly move odd/even rows */
+.staff-item:nth-child(3n + 1) {
+  --offset: 0px;
+  animation: float-grid-a 20s ease-in-out infinite alternate;
+}
+.staff-item:nth-child(3n + 2) {
+  --offset: 120px;
+  animation: float-grid-b 20s ease-in-out infinite alternate;
+}
+.staff-item:nth-child(3n + 3) {
+  --offset: 220px;
+  animation: float-grid-c 20s ease-in-out infinite alternate;
+}
+
+.staff-item img {
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.staff-page-grid .staff-item p {
+  z-index: 10;
+  color: gold;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-family: var(--body-text);
+  display: block !important;
+}
+
+
+/* Hide staff names/titles only in TopPage grid, not StaffPage */
+.top-page .staff-item p {
+  display: none;
+}
+
+/* Medium screens */
+@media (max-width: 1200px) {
+  .staff-grid {
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    animation: none;
+  }
+.staff-item:nth-child(3n + 1), .staff-item:nth-child(3n + 2), .staff-item:nth-child(3n + 3) {
+  --offset: 0px;
+  animation: float-grid-a 0s ease-in-out infinite alternate;
+  }
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  .staff-grid {
+    grid-template-columns: repeat(2, 1fr); /* single column on mobile */
+  }
+}

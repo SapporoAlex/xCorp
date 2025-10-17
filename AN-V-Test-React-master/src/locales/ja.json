@@ -1,0 +1,64 @@
+{
+  "header": {
+    "top": "トップ",
+    "about": "概要",
+    "staff": "スタッフ",
+    "media": "メディア",
+    "contact": "お問い合わせ"
+  },
+  "top": {
+    "title": "X Corp.",
+    "text": "最新技術、最適化",
+    "about-title": "X Corp.とは？",
+    "about-text-a": "私たちは、常に最新技術の可能性を追求する先見の明を持ったテック愛好者のチームです。",
+    "about-text-b": "私たちは最先端のテクノロジーでイノベーションを起こし、未来を見据えたソリューションを創造し、急速に進化する世界で新たな可能性を切り拓きます。",
+    "linkedin-feed-title": "LinkedInからのお知らせ",
+    "staff-button": "スタッフの紹介",
+    "staff-title": "スタッフ",
+    "staff-text": "私たちの才能あふれる多様なチームをご紹介します。明日の複雑な課題に立ち向かい、実際に成果を生み出す革新的な解決策を共に創り出す、献身的なプロフェッショナルの集まりです。",
+    "articlesA": "A記事",
+    "articlesB": "B記事",
+    "media-title-a": "私たちの",
+    "media-title-b": "成功！",
+    "media-title-c": "について",
+    "media-title-d": "読む",
+    "media-button": "もっと見る",
+    "media-announcements": "お知らせ",
+    "media-featured": "注目記事",
+    "contact-title": "お問い合わせ",
+    "contact-text": "ご質問やご意見がございましたら、お気軽にお問い合わせください。私たちは皆様からのご連絡をお待ちしております。",
+    "contact-button": "送信",
+    "contact-success": "お問い合わせいただきありがとうございます。できるだけ早くご連絡いたします。"
+  },
+  "articlesA": {
+    "title": "お知らせ",
+    "description": "社内で執筆した包括的な記事集で、最新のブレークスルーをご覧ください。"
+  },
+  "articlesB": {
+    "title": "注目記事",
+    "description": "X社の画期的な取り組みは、さまざまなメディアで紹介されています。"
+  },
+  "staff": {
+    "title": "スタッフ"
+  },
+  "form": {
+    "name": "名前",
+    "email": "メールアドレス",
+    "message": "メッセージ",
+    "send": "送信",
+    "success": "お問い合わせいただきありがとうございます。できるだけ早くご連絡いたします。",
+    "error": "エラーが発生しました。後ほど再度お試しください。",
+    "name-placeholder": "お名前",
+    "email-placeholder": "メールアドレス",
+    "message-placeholder": "メッセージ内容"
+  },
+  "footer": {
+    "title":"X Corp. 2025年"
+  },
+  "cookie": {
+    "text": "当サイトでは、より良いユーザー体験を提供するためにクッキーを使用しています。閲覧を続けることで、クッキーの使用に同意したことになります。",
+    "accept": "同意する",
+    "decline": "拒否する",
+    "learnMore": "詳細はこちら"
+  }
+}

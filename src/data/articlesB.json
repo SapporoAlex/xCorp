@@ -5,7 +5,7 @@
     "body": { "ja": "量子コンピューティングは、量子力学の原理を活用して、従来のコンピュータよりもはるかに効率的に計算を行います。従来のビットとは異なり、量子ビット（キュービット）は0と1の重ね合わせ状態に同時に存在できます。この特性により、素因数分解や分子構造のシミュレーションなど、特定の複雑な問題を指数関数的に高速に解くことが可能です。研究者たちは、エンタングルメントや干渉を利用したアルゴリズムを開発して計算を最適化しています。大規模でエラー補正された量子コンピュータはまだ実験段階ですが、この分野は暗号、材料科学、人工知能に革命的な進展をもたらす可能性があります。", "en": "Quantum computing leverages the principles of quantum mechanics to perform calculations far more efficiently than classical computers. Unlike traditional bits, quantum bits—or qubits—can exist in superpositions of 0 and 1 simultaneously. This property allows quantum computers to solve certain complex problems, like factoring large numbers or simulating molecular structures, exponentially faster. Researchers are exploring algorithms that exploit entanglement and interference to optimize computations. While large-scale, error-corrected quantum computers are still experimental, the field promises revolutionary advancements in cryptography, materials science, and artificial intelligence, potentially transforming technology as we know it." },
     "date": "2025-11-01",
     "author": "Alice Tanaka",
-    "image": "/media-07.jpeg"
+    "image": "/xCorp/media-07.jpeg"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "body": { "ja": "CRISPR-Cas9は画期的な遺伝子編集技術で、科学者がDNA配列を前例のない精度で修正できます。ガイドRNAが特定の遺伝子をターゲットにし、Cas9酵素がその場所でDNAを切断します。研究者は遺伝子を削除、追加、置換して遺伝性疾患を研究したり、治療法を開発したり、作物を改良したりできます。倫理的懸念として、人間の生殖系列編集や生態系への影響が指摘されます。それでも、CRISPRはすでに希少遺伝子疾患の治療に成果を上げており、医療、農業、バイオテクノロジーの将来の革新に期待が持てます。", "en": "CRISPR-Cas9 is a groundbreaking gene-editing technology that allows scientists to modify DNA sequences with unprecedented precision. It uses a guide RNA to target a specific gene and the Cas9 enzyme to cut the DNA at that location. Researchers can remove, add, or replace genes to study genetic diseases, develop therapies, or enhance crops. Ethical concerns arise around potential human germline editing and ecological impacts. Nevertheless, CRISPR has already led to breakthroughs in treating rare genetic disorders and holds promise for future innovations in medicine, agriculture, and biotechnology." },
     "date": "2025-11-03",
     "author": "Hiroshi Sato",
-    "image": "/media-08.jpeg"
+    "image": "/xCorp/media-08.jpeg"
   },
   {
     "id": "3",
@@ -21,7 +21,7 @@
     "body": { "ja": "太陽光や風力などの再生可能エネルギーへの移行には、効率的なエネルギー貯蔵ソリューションが必要です。特にリチウムイオン電池技術は急速に進歩しており、電力網統合や電気自動車の性能向上を可能にしています。研究者たちは、フローバッテリー、スーパーキャパシタ、水素貯蔵などの可変電力供給への対応も模索しています。エネルギー貯蔵システムは需給バランスを整え、二酸化炭素排出を削減し、信頼性を向上させます。将来的には高密度で安全な全固体電池や大規模な化学貯蔵技術が実用化され、化石燃料の代替として再生可能エネルギーがより現実的になります。", "en": "The transition to renewable energy sources, such as solar and wind, requires efficient energy storage solutions. Battery technology, particularly lithium-ion, has advanced rapidly, enabling better grid integration and electric vehicles. Researchers are also exploring flow batteries, supercapacitors, and hydrogen storage to handle variable energy supply. Energy storage systems help balance supply and demand, reduce carbon emissions, and improve reliability. Future breakthroughs may include solid-state batteries with higher density and safety or large-scale chemical storage methods, making renewable energy a more practical replacement for fossil fuels." },
     "date": "2025-11-05",
     "author": "Emiko Watanabe",
-    "image": "/media-09.jpeg"
+    "image": "/xCorp/media-09.jpeg"
   },
   {
     "id": "4",
@@ -29,7 +29,7 @@
     "body": { "ja": "人工知能（AI）は、より迅速で正確な診断と治療を可能にすることで、医療を変革しています。機械学習アルゴリズムは医療画像を解析し、病気の進行を予測し、個別化治療を提案できます。AI搭載ツールは分子相互作用をシミュレーションすることで新薬開発を支援し、開発時間とコストを削減します。倫理的配慮として、学習データのバイアスや患者プライバシーの保護が求められます。それでも、AIは患者の転帰を改善し、病院の業務を最適化し、精密医療の推進をサポートし、臨床医と研究者の医療アプローチを再形成する可能性があります。", "en": "Artificial intelligence (AI) is transforming healthcare by enabling faster, more accurate diagnosis and treatment. Machine learning algorithms can analyze medical imaging, predict disease progression, and suggest personalized therapies. AI-powered tools assist in drug discovery by simulating molecular interactions, reducing development time and cost. Ethical considerations, including bias in training data and patient privacy, must be addressed. Nevertheless, AI is poised to improve patient outcomes, optimize hospital workflows, and support precision medicine initiatives, ultimately reshaping the way clinicians and researchers approach healthcare." },
     "date": "2025-11-10",
     "author": "Taro Nakamura",
-    "image": "/media-10.jpeg"
+    "image": "/xCorp/media-10.jpeg"
   },
   {
     "id": "5",
@@ -37,7 +37,7 @@
     "body": { "ja": "ダークマターとダークエネルギーは、宇宙論における最も深遠な謎の二つです。ダークマターは重力の影響を及ぼしますが光を放出せず、銀河や銀河団の運動に影響を与えます。一方、ダークエネルギーは宇宙の加速膨張を促し、宇宙規模で重力に逆らいます。科学者たちは望遠鏡、宇宙背景放射、大規模観測を用いてその性質を推測しています。これらを理解することは、宇宙の起源、構造、最終的な運命に関する認識を革新し、物理学の基礎を問い直す可能性があります。", "en": "Dark matter and dark energy are two of the most profound mysteries in cosmology. Dark matter exerts gravitational influence but does not emit light, affecting the motion of galaxies and galaxy clusters. Dark energy, on the other hand, drives the accelerated expansion of the universe, counteracting gravity on cosmic scales. Scientists use observations from telescopes, cosmic microwave background radiation, and large-scale surveys to infer their properties. Understanding these components could revolutionize our comprehension of the universe’s origin, structure, and ultimate fate, potentially challenging the foundations of physics." },
     "date": "2025-11-09",
     "author": "Kaori Fujimoto",
-    "image": "/media-11.jpeg"
+    "image": "/xCorp/media-11.jpeg"
   },
 {
   "id": "6",
@@ -48,5 +48,5 @@
   },
   "date": "2025-11-11",
   "author": "Shinichi Yamada",
-  "image": "/media-12.jpeg"
+  "image": "/xCorp/media-12.jpeg"
 }]

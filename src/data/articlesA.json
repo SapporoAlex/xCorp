@@ -5,7 +5,7 @@
     "body": { "ja": "人類の火星植民計画は、宇宙技術とロボティクスの進歩によって推進されています。エンジニアや科学者は、極端な温度や放射線に耐えられる居住空間を設計し、持続可能なライフサポートシステムを開発しています。SpaceXやNASAなどの組織は、人間と物資を効率的に輸送する方法を模索しています。現地資源の利用（例えば火星の土壌や大気から水や酸素を生成すること）も研究されています。植民地化には多くの課題がありますが、多惑星文明への道を開き、新しい科学的発見をもたらす可能性があり、将来世代に地球を超えた探査へのインスピレーションを与えるでしょう。", "en": "Humanity’s ambitions to colonize Mars are driven by advances in space technology and robotics. Engineers and scientists are designing habitats that can withstand extreme temperatures and radiation, and developing sustainable life support systems. SpaceX, NASA, and other organizations are exploring ways to transport humans and supplies efficiently. Research includes in-situ resource utilization, such as producing water and oxygen from Martian soil and atmosphere. Colonization presents immense challenges but could open the door to multi-planetary civilization and new scientific discoveries, inspiring future generations to explore beyond Earth." },
     "date": "2025-11-02",
     "author": "Lisa Wong",
-    "image": "/media-01.jpeg"
+    "image": "/xCorp/media-01.jpeg"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "body": { "ja": "ニューロインターフェース技術は、人間の脳を直接コンピュータと接続し、思考でデバイスを操作できるようにすることを目的としています。脳コンピュータインターフェース（BCI）は、麻痺患者の運動機能回復や認知能力向上に役立ちます。研究者は、電極設計、信号処理、非侵襲的手法の精度と安全性を向上させる方法を研究しています。倫理的な課題には、プライバシー、同意、悪用の可能性があります。この分野の進展は、医療、通信、エンターテインメントを革新し、生物とデジタルの知能の境界を曖昧にする可能性があります。", "en": "Neural interface technologies aim to connect the human brain directly with computers, enabling control of devices using thoughts. Brain-computer interfaces (BCIs) can help restore mobility to patients with paralysis and assist in cognitive enhancements. Researchers study electrode design, signal processing, and non-invasive methods to improve accuracy and safety. Ethical concerns include privacy, consent, and the potential for misuse. Advances in this field could revolutionize medicine, communications, and entertainment, allowing humans to interact with technology in unprecedented ways, potentially blurring the line between biological and digital intelligence." },
     "date": "2025-11-04",
     "author": "Beckie Miller",
-    "image": "/media-04.jpeg"
+    "image": "/xCorp/media-04.jpeg"
   },
   {
     "id": "3",
@@ -21,7 +21,7 @@
     "body": { "ja": "核融合エネルギーは、太陽を動かすプロセスを模倣することで、ほぼ無限でクリーンなエネルギー源を提供します。科学者たちは、高温で安定したプラズマ閉じ込めと持続的な反応を達成するために研究しています。トカマクやステラレーターは、世界中で試験されている実験炉の一部です。核融合エネルギーは化石燃料への依存を劇的に減らし、気候変動を抑制する可能性があります。技術的および材料上の課題（中性子による炉壁への損傷やエネルギー効率など）は残りますが、突破口が開かれれば、電力供給の未来を安全かつ持続可能に変える可能性があります。", "en": "Fusion energy promises a nearly limitless, clean power source by replicating the process that powers the sun. Scientists work to achieve stable plasma confinement and sustain reactions at extremely high temperatures. Tokamaks and stellarators are among the experimental reactors being tested worldwide. Fusion energy could dramatically reduce dependence on fossil fuels and curb climate change. Significant engineering and material challenges remain, including neutron damage to reactor walls and energy efficiency. Yet, breakthroughs could transform global energy infrastructure, providing a safe and sustainable solution to meet growing electricity demands." },
     "date": "2025-11-06",
     "author": "Billy D. Smith",
-    "image": "/media-03.jpeg"
+    "image": "/xCorp/media-03.jpeg"
   },
   {
     "id": "4",
@@ -29,7 +29,7 @@
     "body": { "ja": "合成生物学は、生物学と工学の原理を組み合わせ、新しい生物を設計・構築したり、既存の生物を再設計したりする分野です。応用例には、バイオ燃料、医薬品、環境修復があります。科学者たちはDNA、タンパク質、代謝経路を操作して目的の機能を達成します。倫理的課題には、バイオセーフティ、バイオセキュリティ、環境への影響が含まれます。この分野は急速に拡大しており、持続可能な技術や新しい解決策の可能性を生み出しています。計算モデルと自動化を統合することで、産業や医療に革新をもたらす可能性があります。", "en": "Synthetic biology combines engineering principles with biology to design and construct new organisms or redesign existing ones. Applications include biofuels, pharmaceuticals, and environmental remediation. Scientists manipulate DNA, proteins, and metabolic pathways to achieve desired functions. Ethical considerations involve biosafety, biosecurity, and potential ecological impact. This field is expanding rapidly, creating opportunities for sustainable technologies and novel solutions to global challenges. By integrating computational modeling and automation, synthetic biology has the potential to revolutionize industries and healthcare while raising important societal questions about the limits of biological design." },
     "date": "2025-11-08",
     "author": "Dr. Doak",
-    "image": "/media-02.jpeg"
+    "image": "/xCorp/media-02.jpeg"
 
   },
   {
@@ -38,7 +38,7 @@
     "body": { "ja": "二酸化炭素回収技術は、工業プロセスや大気からCO2を捕集して排出量を削減することを目的としています。捕集したCO2は地下に貯留したり、コンクリートなどの材料に利用することができます。化学吸収、吸着、バイオベースのアプローチなどが研究されています。これらの技術をスケールアップすることは、気候変動の緩和や国際的な排出削減目標の達成に重要です。コスト、エネルギー要件、監視などの課題はありますが、二酸化炭素回収は再生可能エネルギーの導入を補完し、低炭素経済への移行を助ける有望な手段です。", "en": "Carbon capture technologies aim to reduce CO2 emissions by capturing carbon dioxide from industrial processes or directly from the atmosphere. Captured carbon can be stored underground or used in materials like concrete. Innovations focus on chemical absorption, adsorption, and bio-based approaches. Scaling these solutions is critical for mitigating climate change and meeting international emission reduction targets. While challenges include cost, energy requirements, and monitoring, carbon capture remains a promising tool to complement renewable energy adoption and help transition to a low-carbon economy." },
     "date": "2025-11-10",
     "author": "Lisa Wong",
-    "image": "/media-05.jpeg"
+    "image": "/xCorp/media-05.jpeg"
   },
   {
     "id": "6",
@@ -46,6 +46,6 @@
     "body": { "ja": "アーティストは脳コンピュータインターフェースを活用し、神経活動に応じて反応するインタラクティブアートを制作しています。脳信号を計測することで、ソフトウェアがリアルタイムで視覚、音、アニメーションを生成し、ユーザーの精神状態を反映します。神経科学と創造性の交差点は、没入型体験や新しい芸術形式の可能性を広げます。信号の精度とアクセシビリティの向上に向けた研究も進行中で、アーティストや一般ユーザーが利用しやすくなります。脳コンピュータアートは、技術が人間の表現力を拡張できることを示し、従来の著作権やインタラクティブ性の概念に挑戦します。", "en": "Artists are exploring brain-computer interfaces to create interactive art that responds to neural activity. By measuring brain signals, software can generate visuals, sounds, or animations in real-time, reflecting the user’s mental state. This intersection of neuroscience and creativity opens new possibilities for immersive experiences and novel art forms. Research continues on improving signal fidelity and accessibility, making the technology more usable for artists and the public. Brain-computer art highlights how technology can expand human expression and challenges traditional notions of authorship and interactivity." },
     "date": "2025-11-12",
     "author": "Beckie Miller",
-    "image": "/media-06.jpeg"
+    "image": "/xCorp/media-06.jpeg"
   }
 ]

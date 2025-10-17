@@ -3,42 +3,42 @@
     "id": "1",
     "name": { "ja": "ジョン・ドゥ", "en": "John Doe" },
     "title": { "ja": "CEO", "en": "CEO" },
-    "image": "/img-staff-01.jpeg"
+    "image": "/xCorp/img-staff-01.jpeg"
   },
   {
     "id": "2",
     "name": { "ja": "ビッリー・デ・スミス", "en": "Billy D. Smith" },
     "title": { "ja": "CTO", "en": "CTO" },
-    "image": "/img-staff-02.jpeg"
+    "image": "/xCorp/img-staff-02.jpeg"
   },
   {
     "id": "3",
     "name": { "ja": "リーサ・ヲン", "en": "Lisa Wong" },
     "title": { "ja": "科学者", "en": "Scientist" },
-    "image": "/img-staff-03.jpeg"
+    "image": "/xCorp/img-staff-03.jpeg"
   },
   {
     "id": "4",
     "name": { "ja": "ベッキー・ミラー", "en": "Beckie Miller" },
     "title": { "ja": "エンジニア", "en": "Engineer" },
-    "image": "/img-staff-04.jpeg"
+    "image": "/xCorp/img-staff-04.jpeg"
   },
   {
     "id": "5",
     "name": { "ja": "ハンク・フィンチ", "en": "Hank Finch" },
     "title": { "ja": "弁護士", "en": "Legal Representative" },
-    "image": "/img-staff-05.jpeg"
+    "image": "/xCorp/img-staff-05.jpeg"
   },
   {
     "id": "6",
     "name": { "ja": "ジェーン・スミス", "en": "Jane Smith" },
     "title": { "ja": "マネージャー", "en": "Manager" },
-    "image": "/img-staff-06.jpeg"
+    "image": "/xCorp/img-staff-06.jpeg"
   },
   {
     "id": "7",
     "name": { "ja": "ドーク師", "en": "Dr. Doak" },
     "title": { "ja": "チーフプロデューサー", "en": "Chief Producer" },
-    "image": "/img-staff-07.jpeg"
+    "image": "/xCorp/img-staff-07.jpeg"
   }
 ]

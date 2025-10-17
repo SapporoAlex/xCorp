@@ -17,7 +17,7 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<TopPage />} />
+          <Route path="/xCorp" element={<TopPage />} />
           <Route path="/staff" element={<StaffPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/articlesA" element={<ArticlesAPage />} />

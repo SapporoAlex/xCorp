@@ -98,13 +98,13 @@ const TopPage: React.FC = () => {
       <section className="media" id="media-section">
         <div className="title-row" ref={mediaRowRight1}>
           <h2 className="media-text u-huge-text">{t('top.media-title-a')}</h2>
-          <img className="title-row-img" src='media-01.jpeg'></img>
+          <img className="title-row-img" src='/xCorp/media-01.jpeg'></img>
           <h2 className="media-text u-huge-text">{t('top.media-title-b')}</h2>
         </div>
         <div className="title-row" ref={mediaRowLeft}>
-          <img className="title-row-img" src='media-02.jpeg'></img>
+          <img className="title-row-img" src='/xCorp/media-02.jpeg'></img>
           <h2 className="media-text u-huge-text">{t('top.media-title-c')}</h2>
-          <img className="title-row-img" src='media-03.jpeg'></img>
+          <img className="title-row-img" src='/xCorp/media-03.jpeg'></img>
         </div>
         <div className="title-row" ref={mediaRowRight2}>
           <h2 className="media-text u-huge-text">{t('top.media-title-d')}</h2>

@@ -29,7 +29,7 @@ const Header: React.FC = () => {
           <nav className="u-pc-only">
             <Link to="/xCorp" onClick={handleTopClick}>{t('header.top')}</Link> |{' '}
             <HLink smooth to="/xCorp/#about-section">{t('header.about')}</HLink> |{' '}
-            <Link to="/xCorp/staff">{t('header.staff')}</Link> |{' '}
+            <Link to="/staff">{t('header.staff')}</Link> |{' '}
             <HLink smooth to="/xCorp/#media-section">{t('header.media')}</HLink> |{' '}
             <HLink smooth to="/xCorp/#contact-section">{t('header.contact')}</HLink>
           </nav>
@@ -45,9 +45,9 @@ const Header: React.FC = () => {
             {/* Mobile Menu */}
             {isOpen && (
               <div className="mobile-menu">
-                <Link to="/" onClick={handleTopClick}>{t('header.top')}</Link>
+                <Link to="/xCorp" onClick={handleTopClick}>{t('header.top')}</Link>
                 <HLink smooth to="/xCorp/#about-section" onClick={() => setIsOpen(false)}>{t('header.about')}</HLink>
-                <Link to="/xCorp/staff" onClick={() => setIsOpen(false)}>{t('header.staff')}</Link>
+                <Link to="/staff" onClick={() => setIsOpen(false)}>{t('header.staff')}</Link>
                 <HLink smooth to="/xCorp/#media-section" onClick={() => setIsOpen(false)}>{t('header.media')}</HLink>
                 <HLink smooth to="/xCorp/#contact-section" onClick={() => setIsOpen(false)}>{t('header.contact')}</HLink>
               </div>

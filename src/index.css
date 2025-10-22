@@ -695,6 +695,10 @@ letter-spacing: 0.1em;
     text-align: left;
   }
 
+  .staff-card {
+    height: 260px;
+  }
+
   .staff-container {
     flex-direction: column;
   }

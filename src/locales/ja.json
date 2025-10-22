@@ -60,5 +60,8 @@
     "accept": "同意する",
     "decline": "拒否する",
     "learnMore": "詳細はこちら"
+  },
+    "breadcrumbs": {
+    "back": "戻る"
   }
 }

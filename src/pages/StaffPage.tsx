@@ -3,6 +3,7 @@ import { getStaffMembers } from '../services/staffService';
 import type { StaffMember } from '../types/staff';
 import { useTranslation } from 'react-i18next';
 import StaffCard from '../components/StaffCard';
+import { Link } from 'react-router-dom';
 
 const StaffPage: React.FC = () => {
   const [staffMembers, setStaffMembers] = useState<StaffMember[]>([]);
@@ -14,7 +15,9 @@ const StaffPage: React.FC = () => {
 
   return (
     <div>
+      
       <section className='staff-page'>
+        <div className="article-breadcrumbs"><Link to='/xCorp/'><p>{t('breadcrumbs.back')}</p></Link></div>
         <div className="container"></div>
         <h1 className='u-big-text u-serif-text'>{ t("staff.title")}</h1>
         <div className="staff-page-grid">

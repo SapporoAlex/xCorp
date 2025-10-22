@@ -23,7 +23,7 @@ const TopPage: React.FC = () => {
   const contactSection = useInViewAnimation("u-fade-in");
 
   return (
-    <div className="top-page">
+    <div className="top-page" id="top-section">
       <div className="kv">
         <div className="kv-left-box">
           <video className="kv-video" autoPlay muted loop>
@@ -75,7 +75,7 @@ const TopPage: React.FC = () => {
         </div>
       </section>
 
-      <section ref={staffSection} className="staff">
+      <section ref={staffSection} className="staff" id="staff-section">
         <video className="staff-video" autoPlay muted loop>
           <source src="staff-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.

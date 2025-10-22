@@ -1,9 +1,13 @@
 // PrivacyPolicy.tsx
 import React from "react";
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const PrivacyPolicy: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <div style={{ padding: "4rem", maxWidth: "800px", margin: "0 auto", color: "white" }}>
+      <div className="article-breadcrumbs"><Link to='/xCorp/'><p>{t('breadcrumbs.back')}</p></Link></div>
       <h1>Privacy Policy</h1>
       <p><strong>Last updated:</strong> October 17, 2025</p>
       <p>
@@ -98,8 +102,8 @@ const PrivacyPolicy: React.FC = () => {
       <h2>10. Contact Us</h2>
       <p>If you have questions or concerns about this Privacy Policy, please contact us at:</p>
       <p>
-        <strong>Email:</strong> [your email] <br />
-        <strong>Address:</strong> [your company address]
+        <strong>Email:</strong> support@xcorp.com <br />
+        <strong>Address:</strong> 123 Fake St.
       </p>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import CookieConsent from "react-cookie-consent";
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const CookieConsentComponent: React.FC = () => {
@@ -25,7 +26,7 @@ const CookieConsentComponent: React.FC = () => {
     >
       {t('cookie.text', { defaultValue: "This website uses cookies to enhance your experience." })}
       {" "}
-      <a href="/privacy-policy" style={{ color: "#FFD700" }}>{t('cookie.learnMore', { defaultValue: "Learn more" })}</a>
+      <Link to="/privacy-policy" style={{ color: "#FFD700" }}>{t('cookie.learnMore', { defaultValue: "Learn more" })}</Link>
     </CookieConsent>
   );
 };

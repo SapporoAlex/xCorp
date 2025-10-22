@@ -2,12 +2,14 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import ArticleCard from '../components/ArticleCard';
 import articlesA from '../data/articlesA.json';
+import { Link } from 'react-router-dom';
 
 const ArticlesA: React.FC = () => {
   const { t } = useTranslation();
 
   return (
     <main className="articles-page">
+      <div className="article-breadcrumbs"><Link to='/xCorp/'><p>{t('breadcrumbs.back')}</p></Link></div>
       <h2 className="section-title">{t('articlesA.title')}</h2>
       <p className="section-description">{t('articlesA.description')}</p>
 

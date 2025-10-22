@@ -61,5 +61,8 @@
     "accept": "Accept",
     "decline": "Decline",
     "learnMore": "Learn More"
-  } 
+  },
+  "breadcrumbs": {
+    "back": "Back"
+  }
 }

@@ -47,33 +47,7 @@ const TopPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Fake LinkedIn Feed Section */}
-      <section className="linkedin-feed" id="linkedin-feed-section">
-        <h2 className="section-title linkedin-title">{t("top.linkedin-feed-title")}</h2>
-        <div className="linkedin-feed-container">
-          <div className="linkedin-post">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="linkedin-logo" style={{width:32, height:32, borderRadius:'4px', marginRight:8}} />
-            <div>
-              <strong>X Corp.</strong> <span style={{color:'#888', fontSize:'0.9em'}}>2 days ago</span>
-              <p>Excited to announce our new AI-powered platform! 🚀 #innovation #AI</p>
-            </div>
-          </div>
-          <div className="linkedin-post">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="linkedin-logo" style={{width:32, height:32, borderRadius:'4px', marginRight:8}} />
-            <div>
-              <strong>X Corp.</strong> <span style={{color:'#888', fontSize:'0.9em'}}>3 days ago</span>
-              <p>Back from the convention! Cheers for the ride Elon 🚀 #Rockets #AI</p>
-            </div>
-          </div>
-          <div className="linkedin-post">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="linkedin-logo" style={{width:32, height:32, borderRadius:'4px', marginRight:8}} />
-            <div>
-              <strong>X Corp.</strong> <span style={{color:'#888', fontSize:'0.9em'}}>5 days ago</span>
-              <p>We’re hiring! Join our team of innovators. <a href="#" style={{color:'#0077b5'}}>See jobs</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       <section ref={staffSection} className="staff" id="staff-section">
         <video className="staff-video" autoPlay muted loop>
@@ -118,6 +92,33 @@ const TopPage: React.FC = () => {
           <div className="side-b">
             <h3 className="u-med-text">{t('top.media-featured')}</h3>
             <Link className="m-button" to="/articlesB">{t('top.media-button')}</Link>
+          </div>
+        </div>
+      </section>
+      {/* Fake LinkedIn Feed Section */}
+      <section className="linkedin-feed" id="linkedin-feed-section">
+        <h2 className="section-title linkedin-title">{t("top.linkedin-feed-title")}</h2>
+        <div className="linkedin-feed-container">
+          <div className="linkedin-post">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="linkedin-logo" style={{width:32, height:32, borderRadius:'4px', marginRight:8}} />
+            <div>
+              <strong>X Corp.</strong> <span style={{color:'#888', fontSize:'0.9em'}}>2 days ago</span>
+              <p>Excited to announce our new AI-powered platform! 🚀 #innovation #AI</p>
+            </div>
+          </div>
+          <div className="linkedin-post">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="linkedin-logo" style={{width:32, height:32, borderRadius:'4px', marginRight:8}} />
+            <div>
+              <strong>X Corp.</strong> <span style={{color:'#888', fontSize:'0.9em'}}>3 days ago</span>
+              <p>Back from the convention! Cheers for the ride Elon 🚀 #Rockets #AI</p>
+            </div>
+          </div>
+          <div className="linkedin-post">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="linkedin-logo" style={{width:32, height:32, borderRadius:'4px', marginRight:8}} />
+            <div>
+              <strong>X Corp.</strong> <span style={{color:'#888', fontSize:'0.9em'}}>5 days ago</span>
+              <p>We’re hiring! Join our team of innovators. <a href="#" style={{color:'#0077b5'}}>See jobs</a></p>
+            </div>
           </div>
         </div>
       </section>

@@ -3,6 +3,13 @@
   --body-text: "Inter", sans-serif;
 } 
 
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; /* Prevent long-press menu on images/text */
+  user-select: none;           /* Prevent text selection */
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
   padding: 0;
